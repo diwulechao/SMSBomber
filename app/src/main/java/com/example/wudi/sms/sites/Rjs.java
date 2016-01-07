@@ -39,7 +39,6 @@ public class Rjs implements IAttack {
         client.newCall(request).enqueue(new Callback() {
             @Override
             public void onFailure(Request request, IOException e) {
-                Log.d("hello", e.getMessage());
             }
 
             @Override
